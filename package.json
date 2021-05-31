@@ -1,0 +1,31 @@
+{
+  "name": "bookstore_api",
+  "version": "1.0.0",
+  "description": "A backend API for a bookstore, with the capabilities of adding a book to the store's inventory database, editing book details, removing a book, as well as retrieving all collection of books.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-luwanifemi/bookstore_api.git"
+  },
+  "keywords": [],
+  "author": "Oluwanifemi Rashid",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/O-luwanifemi/bookstore_api/issues"
+  },
+  "homepage": "https://github.com/O-luwanifemi/bookstore_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
